@@ -1,0 +1,12 @@
+
+ALTER TABLE cars
+ADD COLUMN store_id INT(11);
+
+ALTER TABLE cars
+DROP COLUMN store_id;
+
+ALTER TABLE cars
+ADD COLUMN store_ID INT(11);
+
+ALTER TABLE invoices
+ADD COLUMN store_ID INT(11);
